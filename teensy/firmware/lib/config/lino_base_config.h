@@ -25,9 +25,11 @@
 #define K_I 0.3 // I constant
 #define K_D 0.5 // D constant
 
-//define your robot' specs here ### SEE ../Links/Motor for more info.
+// define your robot' specs here ### SEE ../Links/Motor for more info.
+// This specifications are for the GA25-370 6V210RPM
+
 #define MAX_RPM 210               // motor's maximum RPM
-#define COUNTS_PER_REV 341.2       // wheel encoder's no of ticks per rev
+#define COUNTS_PER_REV 942       // wheel encoder's no of ticks per rev
 #define WHEEL_DIAMETER 0.065       // wheel's diameter in meters
 #define PWM_BITS 8                // PWM Resolution of the microcontroller
 #define LR_WHEELS_DISTANCE 0.240  // distance between left and right wheels
