@@ -19,10 +19,10 @@
 // #define USE_MPU9150_IMU
 // #define USE_MPU9250_IMU
 
-#define DEBUG 1
+#define DEBUG 0
 
-#define K_P 0.6 // P constant
-#define K_I 0.3 // I constant
+#define K_P 5.8 // P constant
+#define K_I 0.6 // I constant
 #define K_D 0.5 // D constant
 
 // define your robot' specs here ### SEE ../Links/Motor for more info.
